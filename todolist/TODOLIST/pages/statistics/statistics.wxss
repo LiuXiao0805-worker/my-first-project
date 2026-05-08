@@ -1,0 +1,149 @@
+/* pages/statistics/statistics.wxss — 熏衣草主题 */
+.page {
+  padding-bottom: 32rpx;
+}
+
+.filter-section {
+  margin-top: 16rpx;
+}
+
+.picker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx;
+  border: 1rpx solid var(--border-color);
+  border-radius: 12rpx;
+  color: var(--lavender-dark);
+  font-size: 28rpx;
+}
+
+.picker .icon {
+  font-size: 20rpx;
+  color: var(--text-light);
+}
+
+.chart-section {
+  margin-top: 24rpx;
+}
+
+.chart-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: var(--lavender-dark);
+  margin-bottom: 24rpx;
+}
+
+.chart-container {
+  width: 100%;
+  height: 400rpx;
+}
+
+.achievement-section {
+  margin-top: 24rpx;
+}
+
+.section-header {
+  margin-bottom: 24rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: var(--lavender-dark);
+  display: block;
+}
+
+.section-subtitle {
+  font-size: 24rpx;
+  color: var(--text-light);
+  display: block;
+  margin-top: 8rpx;
+}
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32rpx;
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.badge-icon {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16rpx;
+  position: relative;
+}
+
+.badge-icon.unlocked {
+  background: linear-gradient(135deg, var(--lavender-light) 0%, var(--lavender-mid) 100%);
+  color: white;
+  box-shadow: 0 4rpx 12rpx rgba(156, 123, 200, 0.3);
+}
+
+.badge-icon.locked {
+  background-color: var(--bg-color);
+  color: var(--text-light);
+  border: 2rpx dashed var(--border-color);
+}
+
+.badge-icon image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.badge-placeholder {
+  font-size: 48rpx;
+  font-weight: bold;
+}
+
+.badge-name {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: var(--lavender-dark);
+  margin-bottom: 4rpx;
+}
+
+.badge-desc {
+  font-size: 20rpx;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+.stats-overview {
+  margin-top: 24rpx;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: var(--lavender-mid);
+}
+
+.stat-label {
+  font-size: 24rpx;
+  color: var(--text-light);
+  margin-top: 8rpx;
+}
